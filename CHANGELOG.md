@@ -30,6 +30,10 @@ it in future.
 * Medium of SST boxes will be the same as DecayVolumeMedium (previously, always vacuum)
 * Don't prune tracks (before we were using the CFL option to Track::prune, see https://github.com/GenFit/GenFit/blob/e81adeb07c8643301a1d9f7ae25048557cc72dff/core/include/Track.h#L298)
 
+* **EventCalc LLP event generator**
+  This modification introduces changes to the EventCalc interface to accommodate many-body LLP decays.
+
+
 ### Removed
 
 * Remove Millepede
